@@ -386,19 +386,22 @@
         <div class="max-w-6xl mx-auto px-10 pt-24 pb-16 lg:px-0">
             <div class="footer-container flex flex-wrap">
                 <div class="footer-title mr-10 lg:mr-40 max-w-sm mb-4">
-                    <p class="text-2xl font-semibold mb-2"> Try New Relic Today </p>
-                    <p class="text-sm mb-7">Monitor all your systems and data with the entire New Relic Platform. It's
-                        free forever.</p>
-                    <button class="btn-primary w-full my-2 md:w-"> Start for free </button>
-                    <button class="btn-white w-full my-2 p-2"> Get a Demo </button>
+                    <p class="text-2xl font-semibold mb-2">Try New Relic Today</p>
+                    <p class="text-sm mb-7">Monitor all your systems and data with the entire New Relic Platform. It's free forever.</p>
+                    <!-- Flex container for buttons -->
+                    <div class="button-container flex flex-col gap-4 sm:flex-row sm:gap-4">
+                        <button class="btn-primary w-full sm:w-auto">Start for free</button>
+                        <button class="btn-white w-full sm:w-auto">Get a Demo</button>
+                    </div>
+                    
                 </div>
                 <div class="footer-links flex-grow mb-4">
-                    <p class="mb-6"> Company </p>
+                    <p class="mb-6">Company</p>
                     <div class="grid sm:grid-cols-2">
                         <div>
                             <p class="mb-6"><a href="/about-us">About us</a></p>
                             <p class="mb-6"><a href="/leadership">Leadership</a></p>
-                            <p class="mb-6"><a href="/careers">Careers</a>
+                            <p class="mb-6"><a href="/careers">Careers</a></p>
                             <p class="mb-6"><a href="/diversity-inclusion">Diversity and Inclusion</a></p>
                             <p class="mb-6"><a href="/social">Social Impact</a></p>
                             <p class="mb-6"><a href="/news">Newsroom</a></p>
@@ -406,15 +409,14 @@
                         <div>
                             <p class="mb-6"><a href="/customer">Customers</a></p>
                             <p class="mb-6"><a href="/partners">Partner Program</a></p>
-                            <p class="mb-6"><a href="/investors">Investor Relations</a>
+                            <p class="mb-6"><a href="/investors">Investor Relations</a></p>
                             <p class="mb-6"><a href="/suppliers">Suppliers Portal</a></p>
                             <p class="mb-6"><a href="/contact-us">Contact Us</a></p>
                         </div>
                     </div>
-
                 </div>
                 <div class="w-44 mb-4">
-                    <p class="mb-6"> follow us</p>
+                    <p class="mb-6">Follow us</p>
                     <div class="flex flex-wrap gap-6">
                         <img class="cursor-pointer" src="src/images/icons/github.png" alt="github-social">
                         <img class="cursor-pointer" src="src/images/icons/twitch.png" alt="twitch-social">
@@ -426,7 +428,7 @@
                     </div>
                 </div>
             </div>
-
+        
             <hr />
             <div class="flex justify-between footer-section-2 mt-8 pb-5 flex-wrap">
                 <div class="flex flex-wrap gap-4 order-2 lg:order-1">
